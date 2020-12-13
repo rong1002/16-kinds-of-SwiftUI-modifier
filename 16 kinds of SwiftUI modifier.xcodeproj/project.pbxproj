@@ -13,6 +13,8 @@
 		91727A4D2546D83D008AB634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91727A4C2546D83D008AB634 /* Preview Assets.xcassets */; };
 		91727A582546D83F008AB634 /* _6_kinds_of_SwiftUI_modifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727A572546D83F008AB634 /* _6_kinds_of_SwiftUI_modifierTests.swift */; };
 		91727A632546D83F008AB634 /* _6_kinds_of_SwiftUI_modifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727A622546D83F008AB634 /* _6_kinds_of_SwiftUI_modifierUITests.swift */; };
+		91727A742546D996008AB634 /* EditPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727A732546D996008AB634 /* EditPhotoView.swift */; };
+		91727A79254710C2008AB634 /* PickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91727A78254710C2008AB634 /* PickView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		91727A5E2546D83F008AB634 /* 16 kinds of SwiftUI modifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "16 kinds of SwiftUI modifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91727A622546D83F008AB634 /* _6_kinds_of_SwiftUI_modifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _6_kinds_of_SwiftUI_modifierUITests.swift; sourceTree = "<group>"; };
 		91727A642546D83F008AB634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91727A732546D996008AB634 /* EditPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhotoView.swift; sourceTree = "<group>"; };
+		91727A78254710C2008AB634 /* PickView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				91727A452546D83A008AB634 /* _6_kinds_of_SwiftUI_modifierApp.swift */,
 				91727A472546D83A008AB634 /* ContentView.swift */,
+				91727A732546D996008AB634 /* EditPhotoView.swift */,
+				91727A78254710C2008AB634 /* PickView.swift */,
 				91727A492546D83D008AB634 /* Assets.xcassets */,
 				91727A4E2546D83D008AB634 /* Info.plist */,
 				91727A4B2546D83D008AB634 /* Preview Content */,
@@ -261,6 +267,8 @@
 			files = (
 				91727A482546D83A008AB634 /* ContentView.swift in Sources */,
 				91727A462546D83A008AB634 /* _6_kinds_of_SwiftUI_modifierApp.swift in Sources */,
+				91727A742546D996008AB634 /* EditPhotoView.swift in Sources */,
+				91727A79254710C2008AB634 /* PickView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
